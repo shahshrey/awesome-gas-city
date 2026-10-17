@@ -4,7 +4,7 @@
 
 ## Why it belongs
 
-<!-- Reusable pack, doc, tutorial, talk, or tool. If it is a personal city, it belongs in other.md. -->
+<!-- Reusable pack, doc, tutorial, talk, or tool. A factory shaped around one product belongs in other.md. -->
 
 ## Checklist
 

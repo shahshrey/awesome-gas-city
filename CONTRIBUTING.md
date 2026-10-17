@@ -11,11 +11,9 @@ Additions and corrections are welcome. This list is a curated catalog, in the st
 
 ## What belongs in other.md
 
-- A personal city, or a product that embeds a pack only for its own repository.
-- Schema 1 packs, Gas Town packs, test fixtures, and anything superseded by `gc import`.
-- Projects that showed up in search but are not Gas City packs.
+- A factory or tool shaped around one product, workshop, or lab, when it is still useful to read.
 
-If a personal city demonstrates one reusable idea, mention that idea in one sentence and link the repo from [other.md](other.md).
+Leave out search misses, test fixtures, superseded schema 1 packs, and anything that is not a Gas City project.
 
 ## Entry format
 

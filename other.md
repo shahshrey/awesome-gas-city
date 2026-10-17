@@ -1,8 +1,6 @@
 # Other Gas City projects
 
-The [README](README.md) lists packs and tools built to be reused. This page lists the rest of a GitHub survey run on October 15, 2026: personal cities, products that embed a pack for their own repository, and packs that should not be imported as-is.
-
-Few of these are worth importing. Several contain one idea worth borrowing.
+The [README](README.md) lists packs and tools built to be reused. This page lists factories, tools, and domain projects that are useful to read, and that are shaped around one product or one lab rather than shipped as a general pack.
 
 **[`^        back to top        ^`](#)**
 
@@ -16,8 +14,6 @@ Few of these are worth importing. Several contain one idea worth borrowing.
 - [brettinternet/pr-watch](https://github.com/brettinternet/pr-watch) - One long-lived agent per open pull request, keeping CI green and working through review. `No license file`
 - [Matt2021-A/matt-city](https://github.com/Matt2021-A/matt-city) - A non-coding city: researcher, skeptic, writer, and voice editor, with a separate identity per principal. `No license file`
 - [blueflyio/gluless](https://github.com/blueflyio/gluless) - Formula v2 `check.exec` proves a written goal was met, instead of trusting an agent's "done". ([Source Code](https://github.com/blueflyio/gluless)) `Apache-2.0`
-- [mmlac/gascity-pack-mmlac](https://github.com/mmlac/gascity-pack-mmlac) - Polecats split by model (Haiku, Sonnet, Opus) with Codex reviewers as fallback. Wired through the old rig `includes` mechanism; read it, don't import it. `No license file`
-- [mfhens/opendebt](https://github.com/mfhens/opendebt) - An event-driven intake order that watches for new petitions and pours a scaffold formula. Schema 1. `NOASSERTION`
 
 ## Workshop and demo packs
 
@@ -47,9 +43,7 @@ All three are from Actual AI, which runs the Software Factory Intensive.
 - [jsgerman-oss/gascity-cockpit](https://github.com/jsgerman-oss/gascity-cockpit) - A VS Code extension that drives several cities through the Gas City `/v0` API. `MIT`
 - [gastownhall/acp-unreal](https://github.com/gastownhall/acp-unreal) - An Agent Client Protocol adapter so `gc` can drive Unreal Agent sessions. A provider, not a workflow. `MIT`
 - [craigcode/kranz](https://github.com/craigcode/kranz) - A separate mission-control harness (fresh worker per feature, independent validators, a human approval record) that also runs inside a city. `MIT`
-- [thinkjones/intelligent-package-manager](https://github.com/thinkjones/intelligent-package-manager) - A Claude Code plugin builder. Its `pack.toml` is test data for assembling kits. `MIT`
-- [ThePlenkov/gascity-devcontainer](https://github.com/ThePlenkov/gascity-devcontainer) - Devcontainer features for Gas City, Devin, and Claude. Schema 1, with pinned `bd` and `core` imports. `No license file`
-- [outdoorsea/switchyard-packs](https://github.com/outdoorsea/switchyard-packs) - Archived mirror. The README says `switchyard-ops` and `switchyard-build` are retired. `No license file`
+- [ThePlenkov/gascity-devcontainer](https://github.com/ThePlenkov/gascity-devcontainer) - Devcontainer features for Gas City, Devin, and Claude. `No license file`
 
 ## Domain towns
 
@@ -58,30 +52,3 @@ From [The Academic Wasteland](https://github.com/academic-wasteland/research-com
 - [academic-wasteland/research-commons](https://github.com/academic-wasteland/research-commons) - An `rcp-pack` that validates research tasks and maps them onto beads. `Apache-2.0`
 - [academic-wasteland/pangenome-town](https://github.com/academic-wasteland/pangenome-town) - Peer questions answered with deterministic `vg` and `bcftools` queries, via an `answer-peer` formula and an `inbox-dispatch` order. `No license file`
 - [anuragxxd/nalanda](https://github.com/anuragxxd/nalanda) - A GA4GH WES workflow broker. A single `broker` agent admits and translates requests and executes nothing itself. `Apache-2.0`
-
-## Minimal personal cities
-
-One or two agents, usually a mayor. Useful only as layout examples.
-
-- [kabeero/dotfiles](https://github.com/kabeero/dotfiles) - A mayor and a coder in a dotfiles repository. `GPL-3.0`
-- [erks/bootstrap](https://github.com/erks/bootstrap) - A mayor inside a Mac setup repository. `No license file`
-- [rosejas13/Portfolio](https://github.com/rosejas13/Portfolio) - A mayor inside a Next.js portfolio site. `GPL-3.0`
-
-## Rejected
-
-- [donnabox/gc-import](https://github.com/donnabox/gc-import) - A URL-based pack manager. Schema 1, superseded by built-in `gc import`. `No license file`
-- [donnabox/gc-packman](https://github.com/donnabox/gc-packman) - A tap-based pack manager on the old workspace `includes` model. `No license file`
-- [joe-mcgovern/gc-pack-planners](https://github.com/joe-mcgovern/gc-pack-planners) - Named planner pools. Schema 1, April 2026. The idea is reusable; the config is not. `No license file`
-- [joe-mcgovern/gc-pack-reviewers](https://github.com/joe-mcgovern/gc-pack-reviewers) - A multi-phase review pipeline (correctness, tests, modularity, elegance, security, polish). Schema 1. `No license file`
-- [stevebargelt/gascity-packs](https://github.com/stevebargelt/gascity-packs) - A stale schema 1 snapshot of official packs, with no README. `No license file`
-- [ShawnSpooner/pack-city-pipeline](https://github.com/ShawnSpooner/pack-city-pipeline) - Targets Gas Town (`gt pack add`), not Gas City. `No license file`
-- [mfhens/osm2](https://github.com/mfhens/osm2) - Schema 1 intake orders, and no README. `NOASSERTION`
-- [julianknutsen/rc-smoke-pack](https://github.com/julianknutsen/rc-smoke-pack) - A one-agent fixture used to test `gc pack registry publish` for v1.4.0-rc1. `No license file`
-- [RemanenetSpy/beads-memory-smriti](https://github.com/RemanenetSpy/beads-memory-smriti) - "Temporal memory" via a third-party hosted MCP service. No tests, no license, and the registry entry its README claims was not in the public catalogue. `No license file`
-
-## False positives
-
-These matched a `pack.toml` search and are not Gas City packs.
-
-- [EonsofStupid/Clyffy_Avatar](https://github.com/EonsofStupid/Clyffy_Avatar) - A 3D avatar asset pack.
-- [SeanOC/stuff](https://github.com/SeanOC/stuff) - 3D-printable designs. No `pack.toml` on the default branch at survey time. `MIT`

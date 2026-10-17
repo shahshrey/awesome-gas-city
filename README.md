@@ -6,7 +6,7 @@ A curated list of packs, tools, guides, and talks for [Gas City](https://github.
 
 Gas City takes the machinery from Steve Yegge's [Gas Town](https://github.com/gastownhall/gastown) and turns it into configurable building blocks, so a team can define its own agent shape instead of accepting a fixed one. Julian Knutsen and Chris Sells built it; Yegge is lightly affiliated and did not write it. A factory here is configuration you own: agents (who), formulas (how), and orders (when), packaged as packs and pointed at repositories (rigs). Every unit of work is a durable bead.
 
-Surveyed October 15, 2026, against Gas City **v1.5.0** (October 5, 2026). GitHub search found 76 repositories with a real Gas City `pack.toml`. This page keeps the ones built for reuse. Personal cities, embedded configs, and superseded packs are on the [Other](other.md) page.
+Surveyed October 15, 2026, against Gas City **v1.5.0** (October 5, 2026). This page keeps packs and tools built for reuse. Factories and tools shaped around one product are on the [Other](other.md) page.
 
 See [Contributing](#contributing).
 

@@ -11,4 +11,4 @@ labels: addition
 
 **Section it belongs in**
 
-Reusable pack, doc, tutorial, talk, tool, or other.md (personal city / superseded).
+Reusable pack, doc, tutorial, talk, tool, or other.md (a factory or tool shaped around one product).
